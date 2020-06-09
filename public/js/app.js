@@ -9,7 +9,7 @@ weatherForm.addEventListener('submit', (e)=> {
 
     input_loc = locationInput.value
     if(input_loc.length > 0) {
-        weather_url = 'http://localhost:3000/weather/?location='+input_loc
+        weather_url = '/weather/?location='+input_loc
         message1.textContent = 'Loading...'
 
         fetch(weather_url).then((response)=> {
