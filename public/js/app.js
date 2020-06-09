@@ -1,11 +1,3 @@
-console.log('Client side app.js running')
-
-// fetch('http://localhost:3000/weather/?location=hyderabad').then((response)=> {
-//     response.json().then((data)=> {
-//         console.log(data)
-//     })
-// })
-
 weatherForm = document.querySelector('form')
 locationInput = document.querySelector('input')
 message1 = document.querySelector('#message-1')
